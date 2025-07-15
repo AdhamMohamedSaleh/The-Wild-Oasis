@@ -6,14 +6,8 @@ function NewUsers() {
     <>
       <Heading as="h1">Create a new user</Heading>
       <SignupForm />
-      <p>
-        Demo login:
-        <br />
-        Email: demo@example.com
-        <br />
-        Password: demo1234
-      </p>
-    </>
+    
+        </>
   );
 }
 
