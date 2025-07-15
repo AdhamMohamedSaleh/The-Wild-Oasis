@@ -13,25 +13,17 @@ const LoginLayout = styled.main`
   background-color: var(--color-grey-50);
 `;
 
-const FormRow = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 3.2rem;
-`;
-
 function Login() {
   return (
     <LoginLayout>
       <Logo />
       <Heading as="h4">Log in to your account</Heading>
-      <FormRow>
-        <LoginForm />
-        <p style={{ textAlign: "center", marginTop: "2rem", color: "#888" }}>
-          Email: demo@example.com
-          <br />
-          Password: demo1234
-        </p>
-      </FormRow>
+      <LoginForm />
+      <p style={{ textAlign: "center", marginTop: "2rem", color: "#888" }}>
+        Email: demo@example.com
+        <br />
+        Password: demo1234
+      </p>
     </LoginLayout>
   );
 }
